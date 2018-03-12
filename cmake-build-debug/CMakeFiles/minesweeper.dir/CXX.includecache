@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/USER/CLionProjects/minesweeper/header files/boxClass.h
+iostream
+-
+string
+-
+
+C:/Users/USER/CLionProjects/minesweeper/source files/boxClass.cpp
+../header files/boxClass.h
+C:/Users/USER/CLionProjects/minesweeper/header files/boxClass.h
+iostream
+-
+string
+-
+
+C:/Users/USER/CLionProjects/minesweeper/source files/main.cpp
+iostream
+-
+string
+-
+../header files/boxClass.h
+C:/Users/USER/CLionProjects/minesweeper/header files/boxClass.h
+time.h
+-
+array
+-
+
